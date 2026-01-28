@@ -12,22 +12,33 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 from modules.email_sender import send_emergency_email
+try:
+    # Initialize Session State early
+    if 'risk_engine' not in st.session_state:
+        st.session_state.risk_engine = RiskEngine()
+    if 'incident_manager' not in st.session_state:
+        st.session_state.incident_manager = IncidentManager()
+    if 'cctv_manager' not in st.session_state:
+        st.session_state.cctv_manager = CCTVManager()
 
-# Configure page
-st.set_page_config(
-    page_title="Smart Campus Safety System",
-    page_icon="🛡️",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
-# Professional CSS Styling
-st.markdown("""
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
+    # App UI logic
+    st.title("🛡️ Smart Campus Safety System")
+    
+    # Professional CSS Styling (Simplified for Cloud compatibility)
+    st.markdown("""
+    <style>
+        .main {
+            padding: 1rem;
+        }
+        .metric-card {
+            background: #f0f2f6;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 5px solid #667eea;
+        }
+    </style>
+    """, unsafe_allow_html=True)
     
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
