@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (optional, based on preference)
+data/cctv_recordings/
+emergency_alerts.json
+
+# CRITICAL: Security
+# email_config.py  <-- I should ask the user if they want to push this.
