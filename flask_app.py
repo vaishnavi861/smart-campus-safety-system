@@ -999,4 +999,6 @@ if __name__ == '__main__':
     print("   📊 Analytics:  http://localhost:5000/analytics")
     print("\n🛡️  Smart Campus Safety System Ready!")
     print("="*60 + "\n")
-    app.run(debug=False, host='0.0.0.0', port=5000, threaded=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host='0.0.0.0', port=port, threaded=True)

@@ -21,10 +21,11 @@ def send_emergency_email(subject, body, recipients=None):
         if "247r1a66a1@cmrtc.ac.in" not in recipients:
              recipients.append("247r1a66a1@cmrtc.ac.in")
 
-    sender_email = email_config.SENDER_EMAIL
-    sender_password = email_config.SENDER_PASSWORD
-    smtp_server = email_config.SMTP_SERVER
-    smtp_port = email_config.SMTP_PORT
+    import os
+    sender_email = os.environ.get("SENDER_EMAIL", email_config.SENDER_EMAIL)
+    sender_password = os.environ.get("SENDER_PASSWORD", email_config.SENDER_PASSWORD)
+    smtp_server = os.environ.get("SMTP_SERVER", email_config.SMTP_SERVER)
+    smtp_port = int(os.environ.get("SMTP_PORT", email_config.SMTP_PORT))
 
     # Check for placeholder or empty credentials
     if not sender_password or "your_" in sender_email or "your_" in sender_password:
