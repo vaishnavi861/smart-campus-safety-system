@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}Smart Campus Safety - Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+    <div class="alert-banner">
+        <h2>🚨 Emergency Response Center</h2>
+        <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Quick campus-wide emergency alert system</p>
+        <button class="btn" style="background: white; color: #f5576c; font-size: 1.1rem; padding: 1rem 3rem;">
+            🔴 TRIGGER EMERGENCY ALERT
+        </button>
+    </div>
+
+    <div class="card stat-card">
+        <div class="stat-label">Total Incidents</div>
+        <div class="stat-value">{{ incidents_total }}</div>
+        <div style="opacity: 0.8; font-size: 0.9rem;">Recorded in system</div>
+    </div>
+
+    <div class="card stat-card">
+        <div class="stat-label">Active Cases</div>
+        <div class="stat-value">{{ incidents_active }}</div>
+        <div style="opacity: 0.8; font-size: 0.9rem;">Currently monitored</div>
+    </div>
+
+    <div class="card stat-card">
+        <div class="stat-label">High Priority</div>
+        <div class="stat-value">{{ incidents_critical }}</div>
+        <div style="opacity: 0.8; font-size: 0.9rem;">Require attention</div>
+    </div>
+
+    <div class="card stat-card">
+        <div class="stat-label">CCTV Feeds</div>
+        <div class="stat-value">{{ cctv_total }}</div>
+        <div style="opacity: 0.8; font-size: 0.9rem;">Active recordings</div>
+    </div>
+</div>
+
+<h2>📹 CCTV System Status</h2>
+<div class="status-grid">
+    <div class="status-item">
+        <span class="status-label">Camera Status</span>
+        <span class="status-value" style="color: {{ cctv_color }};">{{ cctv_status_text }}</span>
+    </div>
+    <div class="status-item">
+        <span class="status-label">Frames Captured</span>
+        <span class="status-value">{{ cctv_frames }}</span>
+    </div>
+    <div class="status-item">
+        <span class="status-label">System Uptime</span>
+        <span class="status-value">24/7</span>
+    </div>
+    <div class="status-item">
+        <span class="status-label">Last Update</span>
+        <span class="status-value" style="font-size: 0.95rem;">{{ current_time }}</span>
+    </div>
+</div>
+
+<h2>📋 Recent Incidents Overview</h2>
+<div id="incidents-container">
+    {% for inc in incidents %}
+    <div class="incident-card {{ inc.severity|lower }}">
+        <div class="incident-header">
+            <div>
+                <div class="incident-title">{{ inc.type }}</div>
+                <div class="incident-location">📍 {{ inc.location }}</div>
+                <div class="incident-timestamp">🕐 {{ inc.timestamp }}</div>
+            </div>
+            <div class="incident-id">{{ inc.id }}</div>
+        </div>
+        <div>
+            <span class="badge badge-{{ inc.severity|lower }}">⚠️ {{ inc.severity }}</span>
+            <span class="badge" style="background: #667eea; color: white;">Status: {{ inc.status }}</span>
+        </div>
+    </div>
+    {% else %}
+    <p>No incidents found.</p>
+    {% endfor %}
+</div>
+{% endblock %}

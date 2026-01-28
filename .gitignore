@@ -21,4 +21,7 @@ data/cctv_recordings/
 emergency_alerts.json
 
 # CRITICAL: Security
-# email_config.py  <-- I should ask the user if they want to push this.
+email_config.py
+emergency_alerts.json
+verify_credentials.py
+verify_debug.py

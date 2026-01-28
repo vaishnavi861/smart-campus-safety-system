@@ -1,0 +1,3157 @@
+[
+    {
+        "id": "a2ec5698",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-28 08:02:04",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-28 08:02:04",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "6b162250",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-28 07:49:53",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-28 07:49:53",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "af3bb140",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-28 07:47:30",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-28 07:47:30",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "7f15da2b",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-27 22:15:48",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-27 22:15:48",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "663e8067",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-27 21:45:39",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-27 21:45:39",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "8259369f",
+        "type": "EMERGENCY ALERT",
+        "location": "Campus-Wide Emergency",
+        "severity": "High",
+        "description": "Emergency Alert Triggered by User. Immediate Attention Required.",
+        "reporter": "System Alert",
+        "status": "Triggered",
+        "assigned_to": "All",
+        "timestamp": "2026-01-27 21:37:19",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-27 21:37:19",
+                "note": "Emergency alert button pressed."
+            }
+        ]
+    },
+    {
+        "id": "INC_0000",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Critical",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0001",
+        "type": "Structural Damage",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2026-01-09 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0002",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "High",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0003",
+        "type": "Security Breach",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-28 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-28 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0004",
+        "type": "Fire Hazard",
+        "location": "Building H - Cafeteria",
+        "severity": "Low",
+        "description": "Flammable storage - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-31 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-31 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0005",
+        "type": "Medical Emergency",
+        "location": "Building F - Sports",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0006",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-08 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-08 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0007",
+        "type": "Medical Emergency",
+        "location": "Building F - Sports",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-23 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0008",
+        "type": "Structural Damage",
+        "location": "Building G - Medical",
+        "severity": "High",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-14 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-14 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0009",
+        "type": "Structural Damage",
+        "location": "Building D - Hostel",
+        "severity": "Medium",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-10-28 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-10-28 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0010",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-22 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-22 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0011",
+        "type": "Crowd Control",
+        "location": "Building B - Science Block",
+        "severity": "Critical",
+        "description": "Queue management - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-23 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0012",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-25 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-25 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0013",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0014",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "High",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-10-31 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-10-31 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0015",
+        "type": "Security Breach",
+        "location": "Building F - Sports",
+        "severity": "Low",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2026-01-16 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-16 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0016",
+        "type": "Structural Damage",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0017",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "High",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-30 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-10-30 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0018",
+        "type": "Structural Damage",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0019",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-30 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-30 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0020",
+        "type": "Structural Damage",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-18 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-18 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0021",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-01 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0022",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "High",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-03 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-03 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0023",
+        "type": "Crowd Control",
+        "location": "Building H - Cafeteria",
+        "severity": "High",
+        "description": "Traffic congestion - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2026-01-19 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-19 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0024",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "High",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-14 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-14 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0025",
+        "type": "Security Breach",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-18 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-18 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0026",
+        "type": "Structural Damage",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-10-31 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-10-31 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0027",
+        "type": "Security Breach",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-12 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-11-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0028",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-18 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-18 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0029",
+        "type": "Security Breach",
+        "location": "Building F - Sports",
+        "severity": "High",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2026-01-13 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0030",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-12 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0031",
+        "type": "Structural Damage",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-30 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-30 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0032",
+        "type": "Structural Damage",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-10-24 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-10-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0033",
+        "type": "Medical Emergency",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-27 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-10-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0034",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0035",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-06 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-06 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0036",
+        "type": "Medical Emergency",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-01 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0037",
+        "type": "Medical Emergency",
+        "location": "Building D - Hostel",
+        "severity": "High",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-09 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0038",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "High",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0039",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "High",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-29 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-29 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0040",
+        "type": "Fire Hazard",
+        "location": "Building B - Science Block",
+        "severity": "High",
+        "description": "Electrical overload - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-06 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-06 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0041",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-10-26 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-10-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0042",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "High",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-07 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-07 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0043",
+        "type": "Structural Damage",
+        "location": "Building D - Hostel",
+        "severity": "Medium",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-13 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0044",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-16 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-16 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0045",
+        "type": "Medical Emergency",
+        "location": "Building D - Hostel",
+        "severity": "Medium",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-11 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-11-11 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0046",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "Critical",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-21 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-21 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0047",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0048",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-20 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0049",
+        "type": "Structural Damage",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-27 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0050",
+        "type": "Fire Hazard",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0051",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "Critical",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-13 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0052",
+        "type": "Security Breach",
+        "location": "Building H - Cafeteria",
+        "severity": "High",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-16 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-16 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0053",
+        "type": "Security Breach",
+        "location": "Building C - Admin",
+        "severity": "Medium",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2026-01-12 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0054",
+        "type": "Security Breach",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0055",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Electrical overload - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-28 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-10-28 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0056",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-21 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-21 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0057",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-23 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0058",
+        "type": "Security Breach",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-02 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-11-02 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0059",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "High",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-18 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-18 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0060",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0061",
+        "type": "Fire Hazard",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-12 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-11-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0062",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Flammable storage - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2026-01-03 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-03 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0063",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2026-01-01 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0064",
+        "type": "Fire Hazard",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-25 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-25 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0065",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2026-01-09 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0066",
+        "type": "Fire Hazard",
+        "location": "Building E - Library",
+        "severity": "High",
+        "description": "Electrical overload - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-09 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0067",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-11 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-11 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0068",
+        "type": "Security Breach",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-10-24 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-10-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0069",
+        "type": "Security Breach",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-07 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-07 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0070",
+        "type": "Structural Damage",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-12 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0071",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-10-25 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-10-25 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0072",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-29 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-11-29 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0073",
+        "type": "Fire Hazard",
+        "location": "Building D - Hostel",
+        "severity": "Medium",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-29 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-29 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0074",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-27 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-10-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0075",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Critical",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-03 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-03 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0076",
+        "type": "Fire Hazard",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-23 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0077",
+        "type": "Structural Damage",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2026-01-17 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-17 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0078",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-12 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0079",
+        "type": "Medical Emergency",
+        "location": "Building F - Sports",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-09 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0080",
+        "type": "Crowd Control",
+        "location": "Building B - Science Block",
+        "severity": "Critical",
+        "description": "Traffic congestion - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-07 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-07 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0081",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Crack in wall - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-26 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0082",
+        "type": "Structural Damage",
+        "location": "Building F - Sports",
+        "severity": "Critical",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-16 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-16 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0083",
+        "type": "Fire Hazard",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-15 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-15 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0084",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-26 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0085",
+        "type": "Structural Damage",
+        "location": "Building F - Sports",
+        "severity": "High",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-13 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0086",
+        "type": "Structural Damage",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-23 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-10-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0087",
+        "type": "Crowd Control",
+        "location": "Building C - Admin",
+        "severity": "Low",
+        "description": "Stampede risk - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-27 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-10-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0088",
+        "type": "Fire Hazard",
+        "location": "Building C - Admin",
+        "severity": "Medium",
+        "description": "Flammable storage - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-11 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-11-11 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0089",
+        "type": "Security Breach",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-26 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0090",
+        "type": "Fire Hazard",
+        "location": "Building H - Cafeteria",
+        "severity": "High",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-26 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-10-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0091",
+        "type": "Fire Hazard",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-15 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-15 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0092",
+        "type": "Security Breach",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-23 14:27:29",
+        "status": "Area Secured",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Area Secured",
+                "timestamp": "2025-12-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0093",
+        "type": "Security Breach",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0094",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-01 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0095",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-20 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0096",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-23 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0097",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-10 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-10 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0098",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-22 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-22 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0099",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-24 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-11-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0100",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-18 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-18 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0101",
+        "type": "Security Breach",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-16 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-16 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0102",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Low",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-17 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-17 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0103",
+        "type": "Medical Emergency",
+        "location": "Building F - Sports",
+        "severity": "Medium",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2026-01-01 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0104",
+        "type": "Medical Emergency",
+        "location": "Building D - Hostel",
+        "severity": "Critical",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0105",
+        "type": "Security Breach",
+        "location": "Building G - Medical",
+        "severity": "Medium",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-12 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0106",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-28 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-28 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0107",
+        "type": "Security Breach",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-20 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0108",
+        "type": "Crowd Control",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Queue management - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-13 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0109",
+        "type": "Security Breach",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-26 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0110",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "High",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-10-27 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-10-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0111",
+        "type": "Medical Emergency",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-04 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-04 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0112",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-09 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0113",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-11-22 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-22 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0114",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-10 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-10 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0115",
+        "type": "Security Breach",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-03 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-03 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0116",
+        "type": "Structural Damage",
+        "location": "Building E - Library",
+        "severity": "Medium",
+        "description": "Beam fracture - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-10 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-10 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0117",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Electrical overload - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-23 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0118",
+        "type": "Medical Emergency",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-26 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0119",
+        "type": "Structural Damage",
+        "location": "Building A - Main Campus",
+        "severity": "High",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2026-01-04 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-04 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0120",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-10-23 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-10-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0121",
+        "type": "Structural Damage",
+        "location": "Building F - Sports",
+        "severity": "High",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-04 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-04 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0122",
+        "type": "Crowd Control",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Traffic congestion - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-11-07 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-07 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0123",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Heat stroke - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-26 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-26 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0124",
+        "type": "Medical Emergency",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Head injury - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-10-23 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-10-23 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0125",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "High",
+        "description": "Student collapse - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2026-01-15 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-15 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0126",
+        "type": "Fire Hazard",
+        "location": "Building F - Sports",
+        "severity": "Low",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-12 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0127",
+        "type": "Security Breach",
+        "location": "Building F - Sports",
+        "severity": "Medium",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-19 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-19 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0128",
+        "type": "Security Breach",
+        "location": "Building G - Medical",
+        "severity": "High",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-01 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-01 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0129",
+        "type": "Medical Emergency",
+        "location": "Building C - Admin",
+        "severity": "High",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-11-13 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0130",
+        "type": "Crowd Control",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Queue management - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-17 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-17 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0131",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-24 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team B",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0132",
+        "type": "Fire Hazard",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-17 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-17 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0133",
+        "type": "Security Breach",
+        "location": "Building F - Sports",
+        "severity": "Low",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0134",
+        "type": "Structural Damage",
+        "location": "Building E - Library",
+        "severity": "High",
+        "description": "Roof leak - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-11-05 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-11-05 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0135",
+        "type": "Fire Hazard",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-21 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-21 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0136",
+        "type": "Fire Hazard",
+        "location": "Building G - Medical",
+        "severity": "Low",
+        "description": "Fire alarm malfunction - Requires immediate attention",
+        "reporter": "Maintenance",
+        "timestamp": "2025-12-21 14:27:29",
+        "status": "Inspected",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-21 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Maintenance"
+            }
+        ]
+    },
+    {
+        "id": "INC_0137",
+        "type": "Crowd Control",
+        "location": "Building H - Cafeteria",
+        "severity": "Critical",
+        "description": "Queue management - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2026-01-09 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-09 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0138",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "Medium",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-12 14:27:29",
+        "status": "Inspected",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Inspected",
+                "timestamp": "2025-12-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0139",
+        "type": "Medical Emergency",
+        "location": "Building H - Cafeteria",
+        "severity": "Medium",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-11 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-11-11 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0140",
+        "type": "Security Breach",
+        "location": "Building F - Sports",
+        "severity": "High",
+        "description": "Suspicious activity - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2025-12-12 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-12 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0141",
+        "type": "Structural Damage",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-27 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0142",
+        "type": "Structural Damage",
+        "location": "Building B - Science Block",
+        "severity": "High",
+        "description": "Foundation settling - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-24 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-12-24 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0143",
+        "type": "Medical Emergency",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Allergic reaction - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-27 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team C",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-27 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0144",
+        "type": "Security Breach",
+        "location": "Building D - Hostel",
+        "severity": "Low",
+        "description": "Theft report - Requires immediate attention",
+        "reporter": "Staff",
+        "timestamp": "2025-12-13 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-12-13 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Staff"
+            }
+        ]
+    },
+    {
+        "id": "INC_0145",
+        "type": "Security Breach",
+        "location": "Building A - Main Campus",
+        "severity": "Low",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Security",
+        "timestamp": "2026-01-15 14:27:29",
+        "status": "Resolved",
+        "assigned_to": "Team A",
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-15 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Security"
+            }
+        ]
+    },
+    {
+        "id": "INC_0146",
+        "type": "Security Breach",
+        "location": "Building E - Library",
+        "severity": "Low",
+        "description": "Vandalism - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2026-01-07 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-07 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0147",
+        "type": "Crowd Control",
+        "location": "Building A - Main Campus",
+        "severity": "Medium",
+        "description": "Traffic congestion - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-20 14:27:29",
+        "status": "Action Assigned",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Action Assigned",
+                "timestamp": "2025-11-20 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_0148",
+        "type": "Fire Hazard",
+        "location": "Building F - Sports",
+        "severity": "High",
+        "description": "Gas leak - Requires immediate attention",
+        "reporter": "Student",
+        "timestamp": "2025-12-19 14:27:29",
+        "status": "Resolved",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Resolved",
+                "timestamp": "2025-12-19 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Student"
+            }
+        ]
+    },
+    {
+        "id": "INC_0149",
+        "type": "Security Breach",
+        "location": "Building B - Science Block",
+        "severity": "Medium",
+        "description": "Unauthorized access - Requires immediate attention",
+        "reporter": "Anonymous",
+        "timestamp": "2025-11-19 14:27:29",
+        "status": "Reported",
+        "assigned_to": null,
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2025-11-19 14:27:29",
+                "note": "Initial report",
+                "updated_by": "Anonymous"
+            }
+        ]
+    },
+    {
+        "id": "INC_CCTV_001",
+        "type": "Security Breach",
+        "location": "Main Gate - Entrance",
+        "severity": "High",
+        "description": "Unauthorized person attempting to enter campus grounds at 3:45 PM. Captured on CCTV. Security team alerted and person was escorted out.",
+        "reporter": "CCTV Security",
+        "timestamp": "2026-01-25 15:45:00",
+        "status": "Resolved",
+        "assigned_to": "Security Team A",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-25 15:45:00",
+                "note": "CCTV alert - Unauthorized access attempt",
+                "updated_by": "CCTV System"
+            },
+            {
+                "status": "Acknowledged",
+                "timestamp": "2026-01-25 15:46:00",
+                "note": "Security team dispatched to main gate",
+                "updated_by": "Security Captain"
+            },
+            {
+                "status": "Action Taken",
+                "timestamp": "2026-01-25 15:52:00",
+                "note": "Person identified and escorted out. ID verified and added to watchlist.",
+                "updated_by": "Security Officer"
+            },
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-25 16:00:00",
+                "note": "Incident closed. Security perimeter secure.",
+                "updated_by": "Security Manager"
+            }
+        ]
+    },
+    {
+        "id": "INC_CCTV_002",
+        "type": "Theft",
+        "location": "Parking Lot B - Faculty",
+        "severity": "Medium",
+        "description": "Vehicle alarm triggered at 9:30 PM. CCTV footage shows two individuals attempting to break into a staff member's car. Police were called. Vehicle not damaged.",
+        "reporter": "Parking Attendant",
+        "timestamp": "2026-01-24 21:30:00",
+        "status": "Resolved",
+        "assigned_to": "Police Department",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-24 21:30:00",
+                "note": "Vehicle alarm - Potential theft attempt",
+                "updated_by": "CCTV System"
+            },
+            {
+                "status": "Acknowledged",
+                "timestamp": "2026-01-24 21:32:00",
+                "note": "Police and security team notified",
+                "updated_by": "Dispatch"
+            },
+            {
+                "status": "Action Taken",
+                "timestamp": "2026-01-24 21:35:00",
+                "note": "Security team reached location. Suspects fled the scene.",
+                "updated_by": "Security Officer"
+            },
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-24 21:45:00",
+                "note": "Area secured. CCTV footage recorded and handed to police.",
+                "updated_by": "Security Manager"
+            },
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-25 10:00:00",
+                "note": "Police investigation ongoing. Campus security increased.",
+                "updated_by": "Campus Director"
+            }
+        ]
+    },
+    {
+        "id": "INC_CCTV_003",
+        "type": "Vandalism",
+        "location": "Boys Hostel - 3rd Floor Corridor",
+        "severity": "Low",
+        "description": "Graffiti found on walls in boys hostel corridor. CCTV footage reviewed - incident occurred at 2:15 AM. Student identified.",
+        "reporter": "Hostel Warden",
+        "timestamp": "2026-01-23 08:00:00",
+        "status": "Resolved",
+        "assigned_to": "Hostel Administration",
+        "history": [
+            {
+                "status": "Reported",
+                "timestamp": "2026-01-23 08:00:00",
+                "note": "Vandalism reported by hostel warden",
+                "updated_by": "Warden"
+            },
+            {
+                "status": "Inspected",
+                "timestamp": "2026-01-23 08:30:00",
+                "note": "CCTV footage reviewed. Perpetrator identified as student ID 20210045",
+                "updated_by": "CCTV Operator"
+            },
+            {
+                "status": "Action Assigned",
+                "timestamp": "2026-01-23 09:00:00",
+                "note": "Case assigned to Dean of Students for disciplinary action",
+                "updated_by": "Hostel Manager"
+            },
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-23 15:00:00",
+                "note": "Student counseled. Agreed to restoration work. Case closed.",
+                "updated_by": "Dean of Students"
+            }
+        ]
+    },
+    {
+        "id": "INC_CCTV_004",
+        "type": "Suspicious Activity",
+        "location": "Research Lab - Building C",
+        "severity": "Medium",
+        "description": "Individual observed in restricted area at 4:20 AM via CCTV. Lab door access logs don't match. Campus security responded. Person was visiting professor who forgot ID access.",
+        "reporter": "CCTV Monitoring Team",
+        "timestamp": "2026-01-22 04:20:00",
+        "status": "Resolved",
+        "assigned_to": "Building Administration",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-22 04:20:00",
+                "note": "CCTV alert - Person in restricted research lab area",
+                "updated_by": "CCTV System"
+            },
+            {
+                "status": "Acknowledged",
+                "timestamp": "2026-01-22 04:22:00",
+                "note": "Security team notified and dispatched",
+                "updated_by": "Duty Officer"
+            },
+            {
+                "status": "Action Taken",
+                "timestamp": "2026-01-22 04:30:00",
+                "note": "Person identified as visiting professor. Verified identity and credentials.",
+                "updated_by": "Security Officer"
+            },
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-22 05:00:00",
+                "note": "Access credentials issued. Training provided on security protocols.",
+                "updated_by": "Building Manager"
+            }
+        ]
+    },
+    {
+        "id": "INC_CCTV_005",
+        "type": "Fire Hazard",
+        "location": "Cafeteria - Kitchen Area",
+        "severity": "Critical",
+        "description": "CCTV shows small fire in kitchen equipment at 12:15 PM. Staff quickly extinguished using fire extinguisher. No injuries. Equipment sent for maintenance.",
+        "reporter": "Fire Detection System",
+        "timestamp": "2026-01-21 12:15:00",
+        "status": "Resolved",
+        "assigned_to": "Fire Safety Team",
+        "history": [
+            {
+                "status": "Triggered",
+                "timestamp": "2026-01-21 12:15:00",
+                "note": "Fire alarm triggered in cafeteria kitchen",
+                "updated_by": "Fire Detection System"
+            },
+            {
+                "status": "Acknowledged",
+                "timestamp": "2026-01-21 12:16:00",
+                "note": "Fire department alerted. Security team dispatched.",
+                "updated_by": "Emergency Dispatch"
+            },
+            {
+                "status": "Action Taken",
+                "timestamp": "2026-01-21 12:17:00",
+                "note": "Kitchen staff extinguished fire using fire extinguisher.",
+                "updated_by": "Kitchen Supervisor"
+            },
+            {
+                "status": "Area Secured",
+                "timestamp": "2026-01-21 12:30:00",
+                "note": "Fire department inspected area. All clear.",
+                "updated_by": "Fire Chief"
+            },
+            {
+                "status": "Resolved",
+                "timestamp": "2026-01-21 14:00:00",
+                "note": "Faulty equipment replaced. Kitchen reopened for service.",
+                "updated_by": "Cafeteria Manager"
+            }
+        ]
+    }
+]

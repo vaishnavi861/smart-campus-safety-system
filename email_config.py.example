@@ -1,0 +1,17 @@
+# Email Configuration Template
+# ==================================================
+# Copy this file to 'email_config.py' and fill in your details
+
+SENDER_EMAIL = "your_email@gmail.com"
+SENDER_PASSWORD = "your_app_password"  # 16-character Gmail App Password
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+
+STUDENT_EMAILS = [
+    "student1@example.com",
+    "student2@example.com",
+]
+
+STAFF_EMAILS = [
+    "admin@example.com",
+]

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Safety System - Institutional Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* NAVBAR */
+        .navbar {
+            background: linear-gradient(135deg, #003d82 0%, #1a5fa0 100%);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .navbar-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .brand {
+            font-size: 1.6em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-menu a:hover {
+            opacity: 0.8;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #003d82 0%, #1a5fa0 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+            font-weight: 700;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.4em;
+            margin-bottom: 35px;
+            opacity: 0.95;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background: #ff6b6b;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #ff5252;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255,107,107,0.3);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #003d82;
+        }
+        
+        .btn-secondary:hover {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+        }
+        
+        /* STATS SECTION */
+        .stats {
+            background: white;
+            padding: 80px 20px;
+        }
+        
+        .stats-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.2em;
+            color: #003d82;
+            margin-bottom: 60px;
+            font-weight: 700;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-top: 4px solid #1a5fa0;
+            transition: transform 0.3s;
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #003d82;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 0.95em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+        
+        /* FEATURES SECTION */
+        .features {
+            background: #f9f9f9;
+            padding: 80px 20px;
+        }
+        
+        .features-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-box {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .feature-box h3 {
+            font-size: 1.4em;
+            color: #003d82;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .feature-box p {
+            color: #666;
+            line-height: 1.7;
+        }
+        
+        /* ACCREDITATION SECTION */
+        .accreditation {
+            background: white;
+            padding: 80px 20px;
+        }
+        
+        .accred-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .badge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        
+        .badge-item {
+            background: #f9f9f9;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #1a5fa0;
+            transition: transform 0.3s;
+        }
+        
+        .badge-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .badge-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .badge-text {
+            font-weight: 600;
+            color: #003d82;
+            font-size: 1.05em;
+        }
+        
+        /* EMERGENCY SECTION */
+        .emergency {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .emergency-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .emergency h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        
+        .emergency p {
+            font-size: 1.1em;
+            margin-bottom: 35px;
+            opacity: 0.95;
+        }
+        
+        .emergency-btn {
+            background: white;
+            color: #ff6b6b;
+            padding: 18px 50px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        .emergency-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.7); }
+            50% { box-shadow: 0 0 0 10px rgba(255,255,255,0); }
+        }
+        
+        /* FOOTER */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 60px 20px 30px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h4 {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-col a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 25px;
+            text-align: center;
+            opacity: 0.8;
+        }
+        
+        .footer-bottom p {
+            margin-bottom: 8px;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1em;
+            }
+            
+            .section-title {
+                font-size: 1.8em;
+            }
+            
+            .stat-number {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="navbar-content">
+        <div class="brand">🛡️ Smart Campus Safety</div>
+        <ul class="nav-menu">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#accreditation">Recognition</a></li>
+            <li><a href="#emergency">Emergency</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="overview">
+    <div class="hero-content">
+        <h1>Smart Campus Safety System</h1>
+        <p class="hero-subtitle">Advanced Real-time Incident Management & AI-Powered Risk Prediction</p>
+        <div class="cta-buttons">
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+            <a href="#emergency" class="btn btn-secondary">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- STATS SECTION -->
+<section class="stats">
+    <div class="stats-content">
+        <h2 class="section-title">📊 System Capabilities</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">CCTV Coverage</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">150+</div>
+                <div class="stat-label">Active Cameras</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">System Uptime</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4200+</div>
+                <div class="stat-label">Incidents Tracked</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">AI-Powered</div>
+                <div class="stat-label">Risk Prediction</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Real-time</div>
+                <div class="stat-label">Analytics</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features" id="features">
+    <div class="features-content">
+        <h2 class="section-title">🎯 Core Features</h2>
+        <div class="features-grid">
+            <div class="feature-box">
+                <div class="feature-icon">📹</div>
+                <h3>Live CCTV Streaming</h3>
+                <p>Real-time HD video streaming from multiple campus locations with secure recording and cloud backup capabilities.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🤖</div>
+                <h3>AI Risk Prediction</h3>
+                <p>Machine learning-powered predictive analytics for building safety assessment and hazard identification.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📊</div>
+                <h3>Advanced Analytics</h3>
+                <p>Comprehensive data visualization, incident pattern analysis, and actionable insights for preventive measures.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🗺️</div>
+                <h3>Geographic Mapping</h3>
+                <p>Interactive incident location mapping with heat maps for spatial analysis and resource optimization.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🚨</div>
+                <h3>Emergency Alerts</h3>
+                <p>Instant campus-wide emergency notifications with automated response coordination and team coordination.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📝</div>
+                <h3>Incident Management</h3>
+                <p>Complete incident documentation, tracking, and workflow management with status monitoring and reporting.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ACCREDITATION SECTION -->
+<section class="accreditation" id="accreditation">
+    <div class="accred-content">
+        <h2 class="section-title">🏆 Recognition & Accreditation</h2>
+        <div class="badge-grid">
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">ISO Certified</div>
+            </div>
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">AICTE Approved</div>
+            </div>
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">Security Accredited</div>
+            </div>
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">24/7 Monitored</div>
+            </div>
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">Cloud Enabled</div>
+            </div>
+            <div class="badge-item">
+                <div class="badge-icon">✓</div>
+                <div class="badge-text">Data Protected</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EMERGENCY SECTION -->
+<section class="emergency" id="emergency">
+    <div class="emergency-content">
+        <h2>🚨 Emergency Response Center</h2>
+        <p>Quick-access system for campus-wide emergency coordination and rapid response activation</p>
+        <button class="emergency-btn" onclick="triggerAlert()">TRIGGER EMERGENCY ALERT</button>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">About System</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Vision & Values</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="#">CCTV System</a></li>
+                    <li><a href="#">Risk Engine</a></li>
+                    <li><a href="#">Analytics</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">User Guides</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Smart Campus Safety System. All Rights Reserved.</p>
+            <p>Ethical AI • Public Data Only • No Confidential Information</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+function triggerAlert() {
+    if (confirm('Are you sure you want to trigger an emergency alert? This will notify all response teams.')) {
+        alert('🚨 Emergency Alert Triggered!\n\nAll campus response teams have been notified.\nEmergency ID: ' + Date.now());
+    }
+}
+</script>
+
+</body>
+</html>

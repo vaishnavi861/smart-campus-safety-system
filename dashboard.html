@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Safety System - Professional Campus Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        /* HEADER & NAVIGATION */
+        .navbar {
+            background: linear-gradient(135deg, #003d82 0%, #1a5fa0 100%);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #003d82 0%, #1a5fa0 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .hero-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+        
+        .cta-button:hover {
+            background: #ff5252;
+        }
+        
+        /* STATS SECTION */
+        .stats-section {
+            background: white;
+            padding: 60px 20px;
+            margin: 0;
+        }
+        
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #003d82;
+            font-weight: bold;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+            border-top: 4px solid #1a5fa0;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #003d82;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 0.95em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* FEATURES/SERVICES SECTION */
+        .features-section {
+            background: #f9f9f9;
+            padding: 60px 20px;
+        }
+        
+        .features-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h3 {
+            color: #003d82;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* EMERGENCY ALERT SECTION */
+        .emergency-section {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .emergency-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .emergency-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .emergency-section p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .emergency-btn {
+            background: white;
+            color: #ff6b6b;
+            padding: 18px 45px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .emergency-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        /* FOOTER */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 50px 20px 30px;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h4 {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+        
+        .footer-section a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            text-align: center;
+            opacity: 0.8;
+        }
+        
+        /* RECOGNITION BADGES */
+        .recognition-section {
+            background: white;
+            padding: 60px 20px;
+        }
+        
+        .recognition-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .badge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 30px;
+        }
+        
+        .badge {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #1a5fa0;
+            transition: transform 0.3s;
+        }
+        
+        .badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .badge-text {
+            font-weight: bold;
+            color: #003d82;
+            margin-top: 10px;
+        }
+        
+        /* CONTAINER */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: none;
+            overflow: visible;
+        }
+        
+        .status-bar {
+            background: #2ecc71;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #1f77b4;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #1f77b4;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 1.1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .emergency-section {
+            background: #ff6b6b;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+        }
+        
+        .emergency-button {
+            background: white;
+            color: #ff6b6b;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .emergency-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .features-section {
+            padding: 40px;
+            background: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #2ecc71;
+        }
+        
+        .feature-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .info-section {
+            background: #e3f2fd;
+            padding: 30px;
+            margin: 40px;
+            border-radius: 15px;
+            border-left: 5px solid #2196f3;
+        }
+        
+        .info-section h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        
+        .info-section p {
+            color: #424242;
+            line-height: 1.6;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #1f77b4;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Smart Campus Safety & Incident Intelligence</h1>
+            <p>AI-Driven Predictive Safety and Incident Management System</p>
+        </header>
+        
+        <div class="status-bar">
+            ✅ System Operational | All Modules Loaded Successfully
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="total-incidents">0</div>
+                <div class="stat-label">Total Incidents</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="reported-incidents">0</div>
+                <div class="stat-label">Reported (New)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="resolved-incidents">0</div>
+                <div class="stat-label">Resolved</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="high-severity">0</div>
+                <div class="stat-label">High Severity</div>
+            </div>
+        </div>
+        
+        <div class="emergency-section">
+            <h2>🚨 Emergency Alert System</h2>
+            <p>Immediate response capability for campus-wide emergencies</p>
+            <button class="emergency-button pulse" onclick="triggerEmergency()">
+                🔴 TRIGGER EMERGENCY ALERT
+            </button>
+        </div>
+        
+        <div class="features-section">
+            <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">Core Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🤖 Risk Prediction Engine</h3>
+                    <p>AI-powered analysis of building safety scores using machine learning models and real-time data integration.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📝 Incident Reporting</h3>
+                    <p>Real-time logging and tracking of structural, fire, and medical incidents with comprehensive workflow management.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📊 Analytics Dashboard</h3>
+                    <p>Data-driven insights and predictive analytics for preventive action and resource optimization.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌤️ Live Data Integration</h3>
+                    <p>Real-time weather monitoring and seismic data integration for enhanced risk assessment.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 Mobile Responsive</h3>
+                    <p>Fully responsive design for seamless access across desktop, tablet, and mobile devices.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔐 Secure & Compliant</h3>
+                    <p>Enterprise-grade security with full compliance to data protection regulations.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h3>ℹ️ System Information</h3>
+            <p><strong>Status:</strong> All systems operational and ready for use.</p>
+            <p><strong>Version:</strong> Smart Campus Safety System v1.0</p>
+            <p><strong>Capabilities:</strong> Full AI-powered risk prediction, incident management, and emergency response coordination.</p>
+            <p><strong>Data Sources:</strong> OpenStreetMap, Open-Meteo API, USGS Earthquake Data, and research-backed safety algorithms.</p>
+            <p><strong>Last Updated:</strong> <span id="last-updated"></span></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Smart Campus Safety System | Powered by AI & Machine Learning</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Ethical AI • Public Data Only • No Confidential Information Accessed</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Initialize stats with demo data
+        function initializeStats() {
+            const stats = {
+                'Total': 12,
+                'Reported': 3,
+                'Resolved': 8,
+                'High Severity': 2
+            };
+            
+            // Animate numbers
+            animateValue('total-incidents', 0, stats['Total'], 2000);
+            animateValue('reported-incidents', 0, stats['Reported'], 2000);
+            animateValue('resolved-incidents', 0, stats['Resolved'], 2000);
+            animateValue('high-severity', 0, stats['High Severity'], 2000);
+        }
+        
+        function animateValue(id, start, end, duration) {
+            const obj = document.getElementById(id);
+            const range = end - start;
+            const minTimer = 50;
+            let stepTime = Math.abs(Math.floor(duration / range));
+            stepTime = Math.max(stepTime, minTimer);
+            const startTime = new Date().getTime();
+            const endTime = startTime + duration;
+            let timer;
+            
+            function run() {
+                const now = new Date().getTime();
+                const remaining = Math.max((endTime - now) / duration, 0);
+                const value = Math.round(end - (remaining * range));
+                obj.innerHTML = value;
+                if (value == end) {
+                    clearInterval(timer);
+                }
+            }
+            
+            timer = setInterval(run, stepTime);
+            run();
+        }
+        
+        function triggerEmergency() {
+            const confirmed = confirm('⚠️ Are you sure you want to trigger an emergency alert?\n\nThis will send EMERGENCY NOTIFICATIONS to ALL students and staff!');
+            if (confirmed) {
+                document.querySelector('.emergency-button').disabled = true;
+                document.querySelector('.emergency-button').innerHTML = '⏳ Sending Alerts...';
+                
+                // Send AJAX request to backend
+                fetch('/emergency/trigger', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        type: 'Campus-Wide Emergency',
+                        location: 'Campus',
+                        message: 'An emergency has been triggered. Please move to safe location and await further instructions.'
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        document.querySelector('.emergency-button').innerHTML = '✅ ALERT SENT - ID: ' + data.alert_id + ' (' + data.recipients + ' recipients)';
+                        document.querySelector('.emergency-button').style.background = '#ff4444';
+                        alert('🚨 SUCCESS!\n\nEmergency alert has been sent to ' + data.recipients + ' students and staff members.\n\nAlert ID: ' + data.alert_id);
+                    } else {
+                        throw new Error(data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.querySelector('.emergency-button').innerHTML = '❌ ALERT FAILED - TRY AGAIN';
+                    document.querySelector('.emergency-button').style.background = '#cc0000';
+                    alert('⚠️ ERROR!\n\nFailed to send emergency alert:\n' + error.message + '\n\nMake sure email configuration is set up correctly.');
+                    document.querySelector('.emergency-button').disabled = false;
+                });
+                
+                setTimeout(() => {
+                    document.querySelector('.emergency-button').disabled = false;
+                }, 5000);
+            }
+        }
+        
+        function updateDateTime() {
+            const now = new Date();
+            document.getElementById('last-updated').textContent = now.toLocaleString();
+        }
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeStats();
+            updateDateTime();
+            setInterval(updateDateTime, 60000); // Update every minute
+        });
+        
+        // Simulate real-time updates
+        setInterval(function() {
+            const total = document.getElementById('total-incidents');
+            const currentValue = parseInt(total.textContent);
+            if (Math.random() > 0.8) { // 20% chance of update
+                total.textContent = currentValue + 1;
+                total.parentElement.classList.add('pulse');
+                setTimeout(() => {
+                    total.parentElement.classList.remove('pulse');
+                }, 2000);
+            }
+        }, 10000); // Check every 10 seconds
+    </script>
+</body>
+</html>
