@@ -1,7 +1,10 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import email_config
+try:
+    import email_config
+except ImportError:
+    email_config = None
 import logging
 
 # Configure logging
@@ -14,7 +17,11 @@ def send_emergency_email(subject, body, recipients=None):
     If credentials are not configured, it simulates the email sending.
     """
     if recipients is None:
-        recipients = email_config.STUDENT_EMAILS + email_config.STAFF_EMAILS
+        if email_config:
+            recipients = email_config.STUDENT_EMAILS + email_config.STAFF_EMAILS
+        else:
+            recipients = []
+        
         # Filter out examples if they are still there and we have real ones
         recipients = [r for r in recipients if "student" not in r and "campus.edu" not in r]
         # Always include the specific user request
@@ -22,10 +29,10 @@ def send_emergency_email(subject, body, recipients=None):
              recipients.append("247r1a66a1@cmrtc.ac.in")
 
     import os
-    sender_email = os.environ.get("SENDER_EMAIL", email_config.SENDER_EMAIL)
-    sender_password = os.environ.get("SENDER_PASSWORD", email_config.SENDER_PASSWORD)
-    smtp_server = os.environ.get("SMTP_SERVER", email_config.SMTP_SERVER)
-    smtp_port = int(os.environ.get("SMTP_PORT", email_config.SMTP_PORT))
+    sender_email = os.environ.get("SENDER_EMAIL", email_config.SENDER_EMAIL if email_config else "your_email@gmail.com")
+    sender_password = os.environ.get("SENDER_PASSWORD", email_config.SENDER_PASSWORD if email_config else "")
+    smtp_server = os.environ.get("SMTP_SERVER", email_config.SMTP_SERVER if email_config else "smtp.gmail.com")
+    smtp_port = int(os.environ.get("SMTP_PORT", email_config.SMTP_PORT if email_config else 587))
 
     # Check for placeholder or empty credentials
     if not sender_password or "your_" in sender_email or "your_" in sender_password:

@@ -508,24 +508,25 @@ HOME_HTML = """<!DOCTYPE html>
 </html>
 """
 
-import email_config
+try:
+    import email_config
+except ImportError:
+    email_config = None
 
 # Emergency Alert Email Configuration
 # Using configuration from email_config.py
 
 # Student and Staff emails (Add your actual emails here)
-STUDENT_EMAILS = email_config.STUDENT_EMAILS
-
-
-
-STAFF_EMAILS = email_config.STAFF_EMAILS
+import os
+STUDENT_EMAILS = email_config.STUDENT_EMAILS if email_config else []
+STAFF_EMAILS = email_config.STAFF_EMAILS if email_config else ["247r1a66a1@cmrtc.ac.in"]
 
 def get_email_config():
     return {
-        'SENDER_EMAIL': email_config.SENDER_EMAIL,
-        'SENDER_PASSWORD': email_config.SENDER_PASSWORD,
-        'SMTP_SERVER': email_config.SMTP_SERVER,
-        'SMTP_PORT': email_config.SMTP_PORT
+        'SENDER_EMAIL': os.environ.get("SENDER_EMAIL", email_config.SENDER_EMAIL if email_config else "your_email@gmail.com"),
+        'SENDER_PASSWORD': os.environ.get("SENDER_PASSWORD", email_config.SENDER_PASSWORD if email_config else ""),
+        'SMTP_SERVER': os.environ.get("SMTP_SERVER", email_config.SMTP_SERVER if email_config else "smtp.gmail.com"),
+        'SMTP_PORT': int(os.environ.get("SMTP_PORT", email_config.SMTP_PORT if email_config else 587))
     }
 
 
@@ -534,10 +535,11 @@ def send_emergency_email(subject, message, recipient_list):
     def send_emails():
         try:
             # Get config
-            sender_email = email_config.SENDER_EMAIL
-            sender_password = email_config.SENDER_PASSWORD
-            smtp_server = email_config.SMTP_SERVER
-            smtp_port = email_config.SMTP_PORT
+            config = get_email_config()
+            sender_email = config['SENDER_EMAIL']
+            sender_password = config['SENDER_PASSWORD']
+            smtp_server = config['SMTP_SERVER']
+            smtp_port = config['SMTP_PORT']
             
             # Create email
             msg = MIMEMultipart()
